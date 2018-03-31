@@ -10,7 +10,7 @@ class Register extends CI_Controller {
 		//　言語
 		$this->lang->load('system', getLanguage());
 		$this->lang->load('login', getLanguage());
-// 		$this->lang->load('register', getLanguage());
+		$this->lang->load('register', getLanguage());
 		// データベース接続
 		$this->load->database();
 		$this->load->model('users');

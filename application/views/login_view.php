@@ -72,6 +72,8 @@ function changeLanguage(lan){
 	</div>
 	
 	<div class="content">
+		<h1>Login Form</h1>
+		<label style="color: red;margin-left: 10px;"><?= $errorMsg; ?></label>
 		<form action="<?= base_url();?>login/" method="post" name="login_form" id="login_form">
 			<div class="container">
 				<label><b><?= $this->lang->line('user_name'); ?></b></label>

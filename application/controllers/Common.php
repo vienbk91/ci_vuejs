@@ -5,7 +5,7 @@ class Common extends CI_Controller {
 		parent::__construct();
 		$this->load->helper( 'url' );
 		$this->load->helper( 'common_helper' );
-		$this->load->library( 'session' );
+		$this->load->library( 'phpsession' );
 	}
 	
 	/**

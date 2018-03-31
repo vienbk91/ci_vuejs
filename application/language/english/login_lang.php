@@ -7,4 +7,5 @@ $lang['placeholder_password'] = "Please input password";
 $lang['login_btn'] = "Login";
 $lang['login_with_fb'] = "Login With Facebook";
 $lang['register'] = "Register";
+$lang['error_001'] = "User name and password not correct! Please comfirm.";
 
